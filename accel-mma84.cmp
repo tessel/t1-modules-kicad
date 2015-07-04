@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-09 BZR 5589)-product   date = Saturday, July 04, 2015 'PMt' 01:40:29 PM
+
+BeginCmp
+TimeStamp = /55981513;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598152F;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55981815;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598218A;
+Reference = J2;
+ValeurCmp = CONN_01X10;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55981B97;
+Reference = J3;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55981CE4;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55981C9B;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55981CBF;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /559816FF;
+Reference = U1;
+ValeurCmp = MMA8452Q;
+IdModule  = SMD_Packages:SO-16-L;
+EndCmp
+
+EndListe
