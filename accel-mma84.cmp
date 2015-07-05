@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-09 BZR 5589)-product   date = Saturday, July 04, 2015 'PMt' 01:40:29 PM
+Cmp-Mod V01 Created by Cvpcb (2015-04-09 BZR 5589)-product   date = Sunday, July 05, 2015 'AMt' 10:18:43 AM
 
 BeginCmp
 TimeStamp = /55981513;
@@ -19,6 +19,13 @@ TimeStamp = /55981815;
 Reference = C3;
 ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55993BB7;
+Reference = IC1;
+ValeurCmp = AT24CS01-STUM;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
@@ -60,7 +67,7 @@ BeginCmp
 TimeStamp = /559816FF;
 Reference = U1;
 ValeurCmp = MMA8452Q;
-IdModule  = SMD_Packages:SO-16-L;
+IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
 EndCmp
 
 EndListe
