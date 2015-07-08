@@ -182,7 +182,7 @@
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical freescale-ic)
-      (uri /Users/tim/Desktop/t1-modules/kicad-lib/components/freescale-ic.lib)))
+      (uri /Users/tim/Desktop/t1-modules/library/freescale-ic.lib)))
   (nets
     (net (code 1) (name "Net-(J2-Pad5)")
       (node (ref J2) (pin 5)))

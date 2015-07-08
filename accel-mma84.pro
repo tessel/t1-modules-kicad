@@ -1,4 +1,4 @@
-update=Sunday, July 05, 2015 'AMt' 10:14:35 AM
+update=Tuesday, July 07, 2015 'PMt' 08:01:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,9 +27,9 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=kicad-lib/components
+LibDir=library
 [eeschema/libraries]
-LibName1=kicad-lib/components/freescale-ic
+LibName1=library/freescale-ic
 LibName2=power
 LibName3=device
 LibName4=transistors
