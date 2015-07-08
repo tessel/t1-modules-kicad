@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name tessel)(type KiCad)(uri "$(KIPRJMOD)/../library/tessel.pretty")(options "")(descr ""))
+)

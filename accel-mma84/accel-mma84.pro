@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=library
 [eeschema/libraries]
-LibName1=library/freescale-ic
+LibName1=../library/freescale-ic
 LibName2=power
 LibName3=device
 LibName4=transistors
