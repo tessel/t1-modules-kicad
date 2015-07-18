@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:freescale-ic
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freescale-ic
+LIBS:accel-mma84-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -385,10 +386,6 @@ F 3 "" H 2650 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 5400 2100 5400
-Wire Wire Line
-	2100 5400 2100 4650
-Wire Wire Line
 	2650 4850 2650 4750
 Wire Wire Line
 	2650 4750 2100 4750
@@ -403,4 +400,34 @@ Wire Wire Line
 	3050 5100 3350 5100
 Wire Wire Line
 	3350 5250 3050 5250
+$Comp
+L CONN_01X02 P1
+U 1 1 55A36C14
+P 1650 5350
+F 0 "P1" H 1650 5500 50  0000 C CNN
+F 1 "CONN_01X02" V 1750 5350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 1650 5350 60  0001 C CNN
+F 3 "" H 1650 5350 60  0000 C CNN
+	1    1650 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 55A36C59
+P 2100 5000
+F 0 "R4" V 2180 5000 50  0000 C CNN
+F 1 "R" V 2100 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2030 5000 30  0001 C CNN
+F 3 "" H 2100 5000 30  0000 C CNN
+	1    2100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5400 2250 5400
+Wire Wire Line
+	1850 5300 2100 5300
+Wire Wire Line
+	2100 5300 2100 5150
+Wire Wire Line
+	2100 4650 2100 4850
 $EndSCHEMATC
