@@ -1,84 +1,96 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-09 BZR 5589)-product   date = Monday, July 13, 2015 'AMt' 12:41:20 AM
+Cmp-Mod V01 Genere par PcbNew le Saturday, July 18, 2015 'PMt' 01:38:11 PM
 
 BeginCmp
-TimeStamp = /55981513;
+TimeStamp = 55981AB2
+Path = /55981513
 Reference = C1;
 ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5598152F;
+TimeStamp = 55981AB8
+Path = /5598152F
 Reference = C2;
 ValeurCmp = 4.7uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55981815;
+TimeStamp = 55981ABE
+Path = /55981815
 Reference = C3;
 ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55993BB7;
-Reference = IC1;
-ValeurCmp = AT24CS01-STUM;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
-EndCmp
-
-BeginCmp
-TimeStamp = /5598218A;
+TimeStamp = 55981ACC
+Path = /5598218A
 Reference = J2;
 ValeurCmp = CONN_01X10;
 IdModule  = Socket_Strips:Socket_Strip_Angled_1x10;
 EndCmp
 
 BeginCmp
-TimeStamp = /55981B97;
+TimeStamp = 55981AD2
+Path = /55981B97
 Reference = J3;
 ValeurCmp = CONN_01X02;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A36C14;
-Reference = P1;
-ValeurCmp = CONN_01X02;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /55981CE4;
+TimeStamp = 55981AD8
+Path = /55981CE4
 Reference = R1;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55981C9B;
+TimeStamp = 55981ADE
+Path = /55981C9B
 Reference = R2;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55981CBF;
+TimeStamp = 55981AE4
+Path = /55981CBF
 Reference = R3;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A36C59;
+TimeStamp = 55993C8B
+Path = /55993BB7
+Reference = IC1;
+ValeurCmp = AT24CS01-STUM;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 55A36BDD
+Path = /55A36C14
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 55A36BE3
+Path = /55A36C59
 Reference = R4;
 ValeurCmp = R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /559816FF;
+TimeStamp = 55993317
+Path = /559816FF
 Reference = U1;
 ValeurCmp = MMA8452Q;
 IdModule  = Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm;
